@@ -3,7 +3,7 @@
 # rzavalet, 2023-06-11 22:16
 #
 CC = clang
-CFLAGS = -Wall -Wextra -I/home/rzavalet/opt/stb
+CFLAGS = -Wall -Wextra -I$(HOME)/opt/stb
 LDFLAGS = -lm
 
 all:
